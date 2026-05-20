@@ -243,20 +243,6 @@ Accepts an audio file (any format), returns classification results.
 }
 ```
 
----
-
-## Resume Bullet
-
-```
-EchoWarden — Real-time environmental audio intelligence app for deaf/HoH accessibility
-Built on-device sound event detection system using PANNs (Cnn14) pretrained on AudioSet
-(527 classes), served via FastAPI with <150ms end-to-end latency on Android.
-Implemented PyAV-based universal audio decoder, danger-class triage layer, and
-haptic alert system. Stack: Python, FastAPI, PyTorch, React Native (Expo), PyAV, NumPy.
-```
-
----
-
 ## Future Improvements
 
 - [ ] Convert model to TFLite — run fully on-device (no server needed)
