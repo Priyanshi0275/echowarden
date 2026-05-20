@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "EchoWarden",
+    "slug": "echowarden",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#f8f8f7"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#f8f8f7"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.VIBRATE"
+      ]
+    },
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "EchoWarden needs the microphone to classify environmental sounds and alert you to potential dangers."
+      }
+    },
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "EchoWarden needs your microphone to detect and classify environmental sounds."
+        }
+      ]
+    ]
+  }
+}

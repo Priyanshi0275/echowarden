@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+.env
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# PANNs model weights (large files — download automatically)
+*.pth
+*.pkl
+panns_data/
+
+# Node / Expo
+node_modules/
+.expo/
+dist/
+web-build/
+*.lock
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
