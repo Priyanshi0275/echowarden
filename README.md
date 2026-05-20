@@ -255,12 +255,5 @@ Accepts an audio file (any format), returns classification results.
 
 ## Built By
 
-**Priyanshi** — CS Student  
-Built in 1 day as a portfolio project demonstrating full-stack ML deployment,
-mobile development, and accessibility-focused engineering.
+**Priyanshi Mishra**  
 
----
-
-## License
-
-MIT — build on it, improve it, ship it.
