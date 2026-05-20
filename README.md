@@ -8,7 +8,7 @@ EchoWarden is a mobile + backend system that continuously listens to the environ
 
 ## Demo
 
-| Sound Detection | Danger Alert | Recent Sounds Log | API Docs |
+| Speech Detection | Danger Alert | Recent Sounds Log | API Docs |
 |---|---|---|---|
 | ![Speech](screenshots/speech.png) | ![Siren](screenshots/siren.png) | ![Log](screenshots/music.png) | ![API](screenshots/apidoc.png) |
 
